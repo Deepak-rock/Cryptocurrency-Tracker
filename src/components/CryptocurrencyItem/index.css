@@ -1,1 +1,39 @@
 /* Write your CSS code here */
+.item-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+.type-img-container{
+    display: flex;
+    padding: 8px 20px;
+    width: 40%;
+    gap: 10px;
+}
+.currency-logo{
+    width: 25px;
+    height: 25px;
+}
+.type{
+    color: #ffffff;
+}
+.currency-details-container{
+    display: flex;
+    padding: 8px 20px;
+    width: 60%;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.usd-value{
+    color: #ffffff;
+    width: 60px;
+}
+.euro-value{
+    color: #ffffff;
+}
+@media screen and (min-width: 768px){
+    .currency-details-container{
+        gap: 40px;
+    }
+}

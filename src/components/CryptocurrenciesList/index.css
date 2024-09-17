@@ -1,1 +1,81 @@
 /* Write your CSS code here */
+.cryptocurrencies-app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    color: #00e7ff;
+    font-size: 32px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+    max-width: 250px;
+}
+.image{
+    width: 300px;
+}
+.list-container{
+    border: 3px solid #00e7ff;
+    border-radius: 10px;
+    width: 300px;
+    margin: 40px 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.table-header{
+    background-color: #092e33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.header-item{
+    padding: 8px 20px;
+    width: 40%;
+}
+.header-item-currency{
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 20px;
+    width: 60%;
+    gap: 40px;
+}
+.header{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.cryptocurrency-list{
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    .heading{
+        padding: 60px 0 50px 0;
+        font-size: 46px;
+        max-width: 600px;
+    }
+    .image{
+        width: 600px;
+    }
+    .list-container{
+        width: 600px;
+    }
+    .header{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .image{
+        width: 900px;
+    }
+    .list-container{
+        width: 900px;
+    }
+}
